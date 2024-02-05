@@ -24,6 +24,10 @@ formats:
 
 single_files: enabled
 
+# streaming
+
+quality: frugal
+
 # theme
 background_alpha: 23
 background_image: Building.jpg

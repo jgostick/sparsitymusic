@@ -1,14 +1,14 @@
 # release
 
-artist: Sparsity
-date: 2024-02-12
-permalink: osaka-sessions
 title: Osaka Sessions
+permalink: osaka-sessions
+date: 2024-02-12
+artist: Sparsity
+
 cover:
 description = A theater in the Namba district of Osaka
 file = cover.png
 
---- text
-This album was recording in 2023 during a 7 month stay in Osaka.
-
---- text
+-- text
+This album was recorded in 2023 during a 7 month stay in Osaka.
+-- text

@@ -32,10 +32,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Dependencies
-        run: sudo apt install ffmpeg libvips42
       - name: Update apt
-        run: apt-get update --fix-missing
+        run: apt-get update
+      - name: Install Dependencies
+        run: sudo apt install --fix-missing ffmpeg libvips42
       - name: Install Faircamp
         run: |
           wget -O ${{ runner.temp }}/faircamp.deb https://simonrepp.com/faircamp/packages/faircamp_0.12.0-1+deb12_amd64.deb \

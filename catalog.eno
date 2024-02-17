@@ -36,6 +36,7 @@ formats:
 single_files: enabled
 
 # theme
+round_corners
 background_alpha: 23
 background_image: Building.jpg
 base: dark

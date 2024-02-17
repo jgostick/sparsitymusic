@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update apt
-        run: apt-get update
+        run: sudo apt-get update
       - name: Install Dependencies
         run: sudo apt install --fix-missing ffmpeg libvips42
       - name: Install Faircamp
